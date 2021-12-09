@@ -1,5 +1,10 @@
 import processing.core.PApplet;
 
+/**
+ * Main class to execute sketch
+ * @author ericfabroa
+ *
+ */
 class Main {
   public static void main(String[] args) {
     
@@ -7,4 +12,5 @@ class Main {
 	  Sketch mySketch = new Sketch();
 	  PApplet.runSketch(processingArgs, mySketch);
   }
+  
 }
